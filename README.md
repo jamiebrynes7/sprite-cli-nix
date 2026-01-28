@@ -13,7 +13,7 @@ A Nix flake that packages the [Sprite CLI](https://sprites.dev/) using official 
 ### Quick Run
 
 ```bash
-nix run github:jamiebrynes7/sprites-cli-nix
+nix run github:jamiebrynes7/sprite-cli-nix
 ```
 
 ### NixOS / Home Manager
@@ -24,7 +24,7 @@ Add the overlay to your configuration:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    sprite-cli.url = "github:jamiebrynes7/sprites-cli-nix";
+    sprite-cli.url = "github:jamiebrynes7/sprite-cli-nix";
   };
 
   outputs = { nixpkgs, sprite-cli, ... }: {
